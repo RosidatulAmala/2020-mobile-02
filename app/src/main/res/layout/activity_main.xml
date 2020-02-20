@@ -63,8 +63,10 @@
         android:text="Enter as a "
         app:layout_constraintTop_toBottomOf="@id/text2"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/btn_user"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
         />
 
     <Button
@@ -72,9 +74,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="USER"
+        android:textColor="#FFFFFF"
         app:layout_constraintTop_toBottomOf="@id/text3"
+        app:layout_constraintBottom_toTopOf="@id/btn_service"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/btn_red_large"
         />
 
@@ -83,11 +89,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="service provider"
+        android:textColor="#FF0000"
         app:layout_constraintTop_toBottomOf="@id/btn_user"
+        app:layout_constraintBottom_toTopOf="@id/guest"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/btn_white_large"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="4dp"
         />
 
     <TextView
@@ -100,6 +109,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="50dp"
         />
 
 
